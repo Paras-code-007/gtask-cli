@@ -1,0 +1,42 @@
+{
+    "name": "gtask-cli",
+    "description": "CLI interface to interact with Google Tasks",
+    "version": "0.0.1",
+    "bin": {
+        "gtask-cli": "index.js",
+        "gtask": "index.js"
+    },
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "utils"
+    ],
+    "keywords": [
+        "gtask-cli",
+        "Paras Arora"
+    ],
+    "author": {
+        "name": "Paras Arora",
+        "email": "paras.arora0025@gmail.com",
+        "url": "https://www.twitter.com/paras0025"
+    },
+    "engines": {
+        "node": ">=10"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "node test.js && echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write \"./**/*.{js,json}\""
+    },
+    "dependencies": {
+        "await-to-js": "^2.1.1",
+        "chalk": "^4.1.0",
+        "cli-display-error": "0.1.0",
+        "cli-welcome": "^2.2.2",
+        "clialerting": "1.0.2",
+        "googleapis": "^39.2.0",
+        "meow": "^9.0.0",
+        "node-vercheck": "^1.0.1",
+        "unhandle-error": "^0.1.0"
+    }
+}
